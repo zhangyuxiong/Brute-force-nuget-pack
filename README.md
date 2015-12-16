@@ -2,6 +2,8 @@
 
 ## 说明
 
+在将旧项目依赖的dll迁移到nuget服务器时，部分dll可能无法在nuget.org中找到，且可能也没有相关源码。
+
 目前包含两个脚本：
 * bfnp.ps1 用于无法找到源码的dll打包
 * pack.ps1 用于打包指定目录下所有nuspec,csproj(默认为csproj)
